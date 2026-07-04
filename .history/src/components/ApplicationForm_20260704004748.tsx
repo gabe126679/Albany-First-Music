@@ -111,7 +111,7 @@ export default function ApplicationForm() {
     setSubmitError('');
     try {
 
-      const { error } = await supabase.from('afm_applicants').insert({
+      const { data: inserted, error } = await supabase.from('afm_applicants').insert({
         full_name: data.full_name.trim(),
         email: data.email.trim(),
         phone: data.phone.trim() || null,
@@ -131,6 +131,7 @@ export default function ApplicationForm() {
         social_links: data.social_links.trim() || null,
         consent: true,
       })
+      .select();
 
       if (error) throw error;
       setStatus('success');
