@@ -47,15 +47,25 @@ export default function Footer() {
               Connect
             </p>
             <div className="flex gap-3 mb-4">
-              {[Instagram, Facebook].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#https://www.facebook.com/profile.php?id=61591663558971"
-                  className="w-10 h-10 rounded-lg bg-white/5 grid place-items-center text-ink-300 dark:text-gray-400 hover:bg-gold-500 hover:text-white dark:hover:bg-neon-500 dark:hover:text-black transition-colors"
-                >
-                  <Icon size={18} />
-                </a>
-              ))}
+              <a
+                href="https://www.instagram.com/Albany_First_Music/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-white/5 grid place-items-center text-ink-300 dark:text-gray-400 hover:bg-gold-500 hover:text-white dark:hover:bg-neon-500 dark:hover:text-black transition-colors"
+              >
+                <Instagram size={18} />
+              </a>
+
+              <a
+                href="https://www.facebook.com/profile.php?id=61591663558971"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-white/5 grid place-items-center text-ink-300 dark:text-gray-400 hover:bg-gold-500 hover:text-white dark:hover:bg-neon-500 dark:hover:text-black transition-colors"
+              >
+                <Facebook size={18} />
+              </a>
             </div>
             <p className="text-ink-400 dark:text-gray-500 text-sm">
               Albany, NY
