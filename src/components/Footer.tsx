@@ -1,4 +1,4 @@
-import { Music2, Instagram, Youtube, Mail } from 'lucide-react';
+import { Music2, Instagram, Youtube, Mail, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -47,10 +47,10 @@ export default function Footer() {
               Connect
             </p>
             <div className="flex gap-3 mb-4">
-              {[Instagram, Youtube, Mail].map((Icon, i) => (
+              {[Instagram, Facebook].map((Icon, i) => (
                 <a
                   key={i}
-                  href="#apply"
+                  href="#https://www.facebook.com/profile.php?id=61591663558971"
                   className="w-10 h-10 rounded-lg bg-white/5 grid place-items-center text-ink-300 dark:text-gray-400 hover:bg-gold-500 hover:text-white dark:hover:bg-neon-500 dark:hover:text-black transition-colors"
                 >
                   <Icon size={18} />

@@ -58,9 +58,7 @@ export default function About() {
             <p className="font-serif italic text-2xl sm:text-3xl text-white dark:text-gray-100 max-w-3xl mx-auto leading-snug">
               Become an Albany First Music Member.
             </p>
-            <p className="mt-4 text-sm tracking-widest uppercase text-ink-300 dark:text-gray-500">
-              The AFM Principle
-            </p>
+
           </div>
         </Reveal>
       </div>
