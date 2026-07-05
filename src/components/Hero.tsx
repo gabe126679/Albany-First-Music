@@ -59,7 +59,7 @@ export default function Hero() {
             </span>
             <span className="inline-flex items-center gap-2">
               <MapPin size={16} className="text-gold-600 dark:text-neon-500" />
-              Empire Live · Albany, NY
+              Albany, NY
             </span>
           </div>
         </div>

@@ -3,7 +3,7 @@ import Reveal from './Reveal';
 
 const details = [
   { icon: Calendar, label: 'Date', value: 'October 11, 2026' },
-  { icon: MapPin, label: 'Location', value: 'Empire Live / 93 North Pearl Street, Albany, New York, 12207' },
+  { icon: MapPin, label: 'Location', value: 'Albany, New York' },
   { icon: Clock, label: 'Format', value: 'Live audition before a panel of artists' },
 ];
 

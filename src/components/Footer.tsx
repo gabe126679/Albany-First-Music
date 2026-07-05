@@ -58,7 +58,7 @@ export default function Footer() {
               ))}
             </div>
             <p className="text-ink-400 dark:text-gray-500 text-sm">
-              Empire Live · Albany, NY
+              Albany, NY
             </p>
           </div>
         </div>
